@@ -1,0 +1,12 @@
+/*Universal Selector*/
+body{
+    margin:0;
+    padding:0;
+}
+/*Class Selector*/
+.pra{
+    color:blue;
+}
+hello {
+    font-size:5px;
+}

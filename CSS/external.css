@@ -1,0 +1,12 @@
+.h{
+    font-size:25px;
+    color:blue;
+    text-align:centre;
+    text-decoration: underline 2px dotted;
+    border:5px white;
+}
+.p{
+    font-size:12px;
+    background-color:white;
+    border:2px red;
+}

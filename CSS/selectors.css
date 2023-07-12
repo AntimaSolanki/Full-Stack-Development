@@ -1,0 +1,14 @@
+/*Univeral Selector */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*Element Selector*/
+h1{
+    color:#808081;
+}
+p{
+    color :blue;
+}

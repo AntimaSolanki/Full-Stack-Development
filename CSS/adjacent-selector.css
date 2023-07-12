@@ -1,0 +1,4 @@
+/*Adjacent Selector*/
+section +p{
+color:red;
+}

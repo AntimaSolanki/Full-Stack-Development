@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Classes</title>
+    <style>
+        /*hover*/
+        p:hover{
+            background-color:blue;
+            color:black;
+        }
+        /*focus*/
+        input:focus{
+            color:yellow;
+            background-color:black;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:active{
+            color:blue;
+        }
+        a:visited{
+           color:black;
+        }
+        /*Visited*/
+        a:first-child{
+          color:pink;
+        }
+        /*nth-Child*/
+        a:nth-child(2n+1){
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <!--Pesudo classes-->
+    <!--hover-->
+    <p clas="hover">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum odio perspiciatis temporibus nisi quo sit consequatur iste autem quasi rem.</p>
+    <input type="text"/>
+    <!--link-->
+    <hr>
+    <nav>
+        <a href="www.google.com">Google</a>
+        <br>
+        <a href="www.antimsSolanki">Antima Solanki</a>
+    
+    </nav>
+</body>
+</html>

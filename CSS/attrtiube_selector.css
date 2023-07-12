@@ -1,0 +1,9 @@
+/*Attritube Selector*/
+[target="_balnk"]{
+    color:pink;
+    text-decoration:none;
+}
+/*Attritube ~="value"*/
+[alt ~="Hello"]{
+    background-color: black;
+}

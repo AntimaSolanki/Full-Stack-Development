@@ -1,0 +1,22 @@
+div{
+    width:200px;
+    height:200px;
+    background-color: pink;
+    position:relative;
+    animation-name:colorchange ;
+    animation-duration:2s;
+}
+@keyframes colorchange {
+    from
+    {
+        background-color: black;
+        top:0px;
+        left:0px;
+    }
+    to
+    {
+        background-color: blue;
+        top:0px;
+        left:200px;
+   }
+}

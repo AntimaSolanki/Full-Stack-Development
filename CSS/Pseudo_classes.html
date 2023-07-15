@@ -5,47 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesudo Classes</title>
     <style>
-        /*hover*/
-        p:hover{
-            background-color:blue;
-            color:black;
-        }
-        /*focus*/
-        input:focus{
+        p.hover{
+            background-color:pink;
             color:yellow;
-            background-color:black;
+        }
+        input:focus{
+            color:blue;
+            background-color: black;
+            font-size:20px;
         }
         a:hover{
-            color:yellow;
+            color:red;  
         }
         a:active{
-            color:blue;
+            color:brown;
         }
         a:visited{
-           color:black;
+            color:blue;
         }
-        /*Visited*/
         a:first-child{
-          color:pink;
+            color:aqua;
         }
-        /*nth-Child*/
         a:nth-child(2n+1){
-            background-color: pink;
+            background-color: purple;
         }
     </style>
 </head>
 <body>
-    <!--Pesudo classes-->
-    <!--hover-->
-    <p clas="hover">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum odio perspiciatis temporibus nisi quo sit consequatur iste autem quasi rem.</p>
-    <input type="text"/>
-    <!--link-->
-    <hr>
+    <!--Pesudo Classes-->
     <nav>
-        <a href="www.google.com">Google</a>
-        <br>
-        <a href="www.antimsSolanki">Antima Solanki</a>
-    
+    <p class="hover"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, numquam! Eaque magni necessitatibus vel asperiores animi culpa eligendi, in officiis quibusdam aliquam quo dolor fugiat voluptate dolore, eius beatae et?</p>
     </nav>
+    <hr>
+    <input type="text">
+    <hr>
+    <!--Links-->
+    <a href="www.google.com">Google</a>
+
 </body>
 </html>

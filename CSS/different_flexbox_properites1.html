@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .cont{
+            display:flex;
+            border:1px solid black;
+            /*flex-direction:column-reverse;*/
+            /*flex-wrap:wrap*/
+            /*flex-wrap:no-wrap*/
+            /*flex-wrap:reverse-wrap*/
+            /*justify content will work fromm left to right */
+            /*justify-content:space between*/
+            justify-content: center;
+            /*justify-content:space-around;*/
+            /*align item works from top to bottom */
+            align-items:stretch;
+            gap:10px;
+
+        }
+        .box{
+            height:100px;
+            width:100px;
+        }
+        .box1{
+            background-color: orange;
+        }
+        .box2{
+            background-color: blue;
+        }
+        .box3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+     
+    <!--Flex-->
+    <div class="cont">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div> 
+    </div>
+</body>
+</html>

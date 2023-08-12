@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Album With grid </title>
+    <style>
+        .cont{
+            display:grid;
+            height:700px;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .box{/*
+            width:100px;
+            height:100px;
+        */}
+        .box1{
+            background-color: red;
+            grid-row-start:1;
+            grid-row-end:3;
+        }
+        .box2{
+            background-color: yellow;
+        }
+        .box3{
+            background-color: green;
+        }
+        .box4{
+            background-color: blue;
+            grid-column-start: 2;
+            grid-column-end:4;
+        }
+        .box5{
+            background-color: pink;
+        }
+        .box6{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--Grid Album-->
+    <div class="cont">
+        <div class="box box1"><!--<img src="https://cdn.pixabay.com/photo/2023/02/26/16/32/ice-creams-7816308_640.jpg" alt="" srcset="">--></div>
+        <div class="box box2"><!--<img src="https://cdn.pixabay.com/photo/2023/07/11/08/50/fireworks-8119898_640.jpg" alt="">--></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+    </div>
+</body>
+</html>
